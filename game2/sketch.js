@@ -8,20 +8,16 @@ function goRed(){
   redY=redY+1.5;
   document.getElementById("red").style.bottom = redY+"%";
 }
-function run(){
-setTimeout(function(){
-  check();
-  blueY=blueY+0.49;
-   document.getElementById("blue").style.bottom = blueY+"%";
-}, 30);
-}
+function goRed(){
+    blueY=blueY+1.5;
+    document.getElementById("blue").style.bottom = blueY+"%";
+  }
+
 function check(){
    h = window.innerHeight;
  if(blueY>99){
    location.assign("loose.html");
  } else if (redY>99){
     location.assign("win.html");
- } else{
-   setTimeout(function(){ run();}, 30);
- }
+ } 
 }
