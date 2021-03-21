@@ -8,7 +8,7 @@ function goRed(){
   redY=redY+1.5;
   document.getElementById("red").style.bottom = redY+"%";
 }
-function goRed(){
+function goBlue(){
     blueY=blueY+1.5;
     document.getElementById("blue").style.bottom = blueY+"%";
   }
