@@ -4,4 +4,5 @@ a simple race in javascript
 the working of this game is very simple 
  at first for the two spacecrafts using html `<img>`
  the two spacecrafts are positioned using 
- css `position:fixed;`
+ css `position:fixed;` and `top` and `right`or you may use `left`
+the car is moving by javascript dom top property
