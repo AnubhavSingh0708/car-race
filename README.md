@@ -6,3 +6,4 @@ the working of this game is very simple
  the two spacecrafts are positioned using 
  css `position:fixed;` and `top` and `right`or you may use `left`
 the car is moving by javascript dom top property
+when button is pressed your car moves and the other car moves by javascript for loop
