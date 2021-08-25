@@ -15,6 +15,11 @@ function goRed(){
   document.getElementById("red").style.bottom = redY+"%";
 }
 function run(){
+setTimeout(function(){
+  check();
+  blueY=blueY+0.49;
+   document.getElementById("blue").style.bottom = blueY+"%";
+}, 30);
 }
 function check(){
    h = window.innerHeight;
