@@ -14,7 +14,7 @@ document.body.appendChild(imported);
 setTimeout(function(){
   var myobj4 = document.getElementById("unload");
   myobj4.remove();
-}, 10000);
+}, 9000);
 function goRed(){
   redY=redY+1.5;
   document.getElementById("red").style.bottom = redY+"%";
