@@ -14,6 +14,9 @@ document.body.appendChild(imported);
 setTimeout(function(){
   var myobj4 = document.getElementById("unload");
   myobj4.remove();
+  window.removeEventListener('beforeunload', function() {
+  location.assign(location); 
+});
 }, 9000);
 function goRed(){
   redY=redY+1.5;
