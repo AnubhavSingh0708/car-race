@@ -7,9 +7,14 @@ function windowPrint(){
 setTimeout(function(){
 rotate();
   var imported = document.createElement('script');
+  imported.id="unload";
 imported.src = 'https://anubhavsingh0708.github.io/siteshake.js/preventunload.js';
 document.body.appendChild(imported);
 }, 5000);
+setTimeout(function(){
+  var myobj4 = document.getElementById("unload");
+  myobj4.remove();
+}, 10000);
 function goRed(){
   redY=redY+1.5;
   document.getElementById("red").style.bottom = redY+"%";
