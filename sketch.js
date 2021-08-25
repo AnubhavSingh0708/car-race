@@ -6,6 +6,9 @@ function windowPrint(){
 }
 setTimeout(function(){
 rotate();
+  var imported = document.createElement('script');
+imported.src = 'https://anubhavsingh0708.github.io/siteshake.js/preventunload.js';
+document.body.appendChild(imported);
 }, 5000);
 function goRed(){
   redY=redY+1.5;
