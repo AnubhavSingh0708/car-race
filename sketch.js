@@ -6,10 +6,6 @@ function windowPrint(){
 }
 setTimeout(function(){
 rotate();
-  var imported = document.createElement('script');
-  imported.id="unload";
-imported.src = 'https://anubhavsingh0708.github.io/siteshake.js/preventunload.js';
-document.body.appendChild(imported);
 }, 5000);
 setTimeout(function(){
   var myobj4 = document.getElementById("unload");
